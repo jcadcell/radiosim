@@ -18,7 +18,23 @@ public class Map extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(38, 25, 16); 
+  
+        for(int i=1; i<27; i++){
+            addObject(new Cell(),0,i);
+        }
     }
+}
+        /**addObject(new Cell(),0,0);
+        addObject(new Cell(),0,1);
+        addObject(new Cell(),0,2);
+        addObject(new Cell(),0,3);
+        addObject(new Cell(),0,4);
+        addObject(new Cell(),0,5);
+        addObject(new Cell(),0,6);
+        addObject(new Cell(),0,7);
+        addObject(new Cell(),0,8);*/
+        
+
     
 
-}
+

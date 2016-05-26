@@ -7,6 +7,10 @@ import java.util.List;
  */
 public class Cell extends Actor
 {
+    public Cell() {
+        super();
+    }
+
     /**
      * Set the color of the cell based on the environment.
      */
